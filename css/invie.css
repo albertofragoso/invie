@@ -25,6 +25,14 @@ body
   margin: auto;*/
 }
 
+button
+{
+  border-radius: 5px;
+  background: #ff5d4f;
+  color: white;
+  border: none;
+  padding: 10px;
+}
 .titulo
 {
   font-family: 'Montserrat', sans-serif;
@@ -122,6 +130,7 @@ body
   border: 1px solid #1F313C;
   padding: 10px;
   margin: 10px;
+  border-radius: 8px;
 }
 
 .contenedor-guitarra-a
