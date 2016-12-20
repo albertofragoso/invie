@@ -25,7 +25,7 @@ body
   margin: auto;*/
 }
 
-button
+.button
 {
   border-radius: 5px;
   background: #ff5d4f;
@@ -141,4 +141,87 @@ button
 .contenedor-guitarra-b
 {
     margin-left:370px;
+}
+
+footer
+{
+    background: #273b47;
+}
+
+footer .contenedor
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto
+{
+  display: flex;
+  /*flex-direction: column;*/
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.contacto img
+{
+  display: block;
+}
+
+.contacto strong
+{
+  display: block;
+}
+
+.contacto a
+{
+  color:white;
+  text-decoration: none; /*Quita hipervinculo del enlace*/
+  margin: 10px 5px 60px 0px;
+  font-size: 14px;
+}
+
+.formulario
+{
+  display: flex;
+  width: 500px;
+  color: white;
+  padding: 50px 10px;
+}
+
+.col1, .col2
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.col1
+{
+  margin-right: 15px;
+}
+
+.col2
+{
+    align-items: flex-start;
+}
+
+.col2 textarea
+{
+  margin-bottom: 10px;
+}
+
+.formulario label
+{
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.sexo, .intereses
+{
+  margin-bottom: 10px;
+}
+
+.sexo
+{
+  margin-top: 10px;
 }
