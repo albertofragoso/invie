@@ -64,6 +64,10 @@ body
   font-size: 50px;
 }
 
+/*.imagen
+{
+  background-image: url('../images/background.png');
+}*/
 .portada
 {
   background-image: url('../images/background.png');
@@ -121,7 +125,7 @@ body
 {
   float: left;
   position: relative;
-  top:80px;
+  top:-5px;
 }
 
 .guitarra
@@ -146,6 +150,7 @@ body
 footer
 {
     background: #273b47;
+    margin-top: 70px;
 }
 
 footer .contenedor
